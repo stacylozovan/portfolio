@@ -1,4 +1,5 @@
 import "./App.css";
+import profile from "./assets/profile.jpg";
 
 function App() {
   const services = [
@@ -80,7 +81,7 @@ function App() {
         </div>
 
         <div className="hero-media">
-          <img src="/profile.jpg" alt="Anastasiia Lozovan" />
+          <img src={profile} alt="Anastasiia Lozovan" />
           <div className="media-label">
             <span>Anastasiia Lozovan</span>
             <span>DevOps & Full-Stack Developer</span>
